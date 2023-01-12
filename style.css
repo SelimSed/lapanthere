@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -688,6 +688,11 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+}
+
+.mention{
+    font-size: 20px;
+    color: #333333;
 }
 
 .cta-hero {
@@ -703,9 +708,14 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.col-sm-3 span{
+    color: rgb(55, 55, 55)!important;
+    filter: brightness(120%);
+}
 
-.social span{
-    color: rgb(55, 55, 55);
+.col-sm-3 span:hover{
+    color: rgb(55, 55, 55)!important;
+    filter: brightness(0%);
 }
 
 h2 {
